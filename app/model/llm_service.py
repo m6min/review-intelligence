@@ -21,7 +21,7 @@ def ozellikleri_getir(yorumlar_listesi: list[str]) -> dict:
     KESİN KURALLAR:
     1. Her iki liste de TAM OLARAK 3 elemanlı olacak. Ne eksik, ne fazla.
     2. Maddelerin yanına ASLA puan, olasılık, yüzde veya sayı (örn: 0.76) eklemeyeceksin. Saf metin olacak.
-    3. Maddeler "ürün dandik", "ürün güzel" gibi basit kelimeler yerine, profesyonel, net ve okunabilir bir dille ifade edilmeli. Yazım yanlışları harf karışıklıkları omlmamalı.
+    3. Maddeler "ürün dandik", "ürün güzel" gibi basit kelimeler yerine, profesyonel, net ve okunabilir bir dille ifade edilmeli. Yazım yanlışları harf karışıklıkları olmamalı.
     Örnek Doğru Çıktılar: "Yüksek malzeme kalitesi", "Hızlı kargolama", "Beden tablosu uyumsuzluğu", "Kötü paketleme".
     4. Sadece ve kesinlikle json formatında çıktı ver.
 
@@ -32,7 +32,7 @@ def ozellikleri_getir(yorumlar_listesi: list[str]) -> dict:
     }}
 
     Yorumlar:
-    {yorumlar}
+    {yorumlar[:100]}
     """
 
     try:
