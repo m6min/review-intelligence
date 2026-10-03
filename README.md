@@ -1,4 +1,4 @@
-# Yorum Analiz
+# Review Intelligence Platform
 
 A web application that turns Trendyol product reviews into a customer-feedback report.
 
