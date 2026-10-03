@@ -4,8 +4,12 @@ A web application that turns Trendyol product reviews into a customer-feedback r
 
 The application collects product reviews, calculates a sentiment score, identifies commonly praised features and reported issues, and displays review-score trends over time.
 
+## Why I Built That Project
+
+I wanted to combine Playwright's automation capabilities with ML or analytics. It might not be suitable for a permanent deployment due to the reasons below, but it's a perfect personal assistant to help you make better choices when shopping on supported e-commerce sites.
+
 > **Important Note on Deployment & Cloud Environments:**
-> This project is intentionally designed to be run in a local environment. Due to aggressive IP-based geolocation blocks and bot-protection mechanisms employed by major e-commerce platforms like Trendyol, running headless scraping automation (Playwright) on generic cloud instances (like Render or AWS Europe) results in forced geographic redirects or captchas. Therefore, a live cloud demo is not maintained. To experience the full capabilities of the application, please follow the Installation guide in the following to run it locally.
+> This project is intentionally designed to be run in a local environment. Due to aggressive IP-based geolocation blocks and bot-protection mechanisms employed by major e-commerce platforms like Trendyol, running headless scraping automation (Playwright) on generic cloud instances (like Render or AWS Europe) results in forced geographic redirects or captchas. Therefore, a live cloud demo is not maintained. To experience the full capabilities of the application, please follow the Installation guide in the following to run it locally or take a look at the gifs i added below.
 
 ## See How It Works
 
@@ -91,7 +95,7 @@ To run this project locally, you will need:
 Clone the repository and move into the application directory:
 
 ```bash
-git clone https://github.com/your-username/yorum-analiz.git
+git clone https://github.com/m6min/yorum-analiz.git
 cd yorum-analiz/app
 ```
 
