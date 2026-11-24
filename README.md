@@ -1,5 +1,8 @@
 # Review Intelligence Platform
 
+> **Caution:**
+> This project didn't updated after <!-- LAST_COMMIT_DATE -->October 3, 2026<!-- /LAST_COMMIT_DATE -->. After recent changes on Trendyol, tool might not be working properly.
+
 A web application that turns Trendyol product reviews into a customer-feedback report.
 
 The application collects product reviews, calculates a sentiment score, identifies commonly praised features and reported issues, and displays review-score trends over time.
@@ -15,11 +18,11 @@ I wanted to combine Playwright's automation capabilities with ML or analytics. I
 
 Without caching:
 
-<img width="1280" height="400" alt="Demo Gif" src="https://github.com/user-attachments/assets/a98ef97f-f2d5-4b1d-832c-8226741d4fe8" />
+<img width="1280" height="650" alt="Demo Gif" src="https://github.com/user-attachments/assets/a98ef97f-f2d5-4b1d-832c-8226741d4fe8" />
 
 With caching:
 
-<img width="1280" height="400" alt="Demo Gif" src="https://github.com/user-attachments/assets/a539f16c-432d-4b0c-9acb-3bc7537aaeec" />
+<img width="1280" height="650" alt="Demo Gif" src="https://github.com/user-attachments/assets/a539f16c-432d-4b0c-9acb-3bc7537aaeec" />
 
 ## Features
 
